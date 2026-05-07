@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- GUST Patcher build 2026-05-07T02:25:33.968Z removed: tutorial-include, tutorial-auto, tutorial-settings, tab-drag, tab-context -->
 <html lang="en">
 
 <head>
@@ -3536,6 +3537,15 @@
             z-index: 1;
         }
     </style>
+
+<!-- GUST Patcher patch -->
+<script>
+(function(){
+  var b="KGZ1bmN0aW9uKCl7Ci8vIGxvY2FsU3RvcmFnZSBwcmUtc2VlZHMKKGZ1bmN0aW9uKCl7CiAgdmFyIF9rPSJndXN0OnR1dG9yaWFsIjsKICB2YXIgX3Y9ImRvbmUiOwogIHRyeXtsb2NhbFN0b3JhZ2Uuc2V0SXRlbShfayxfdik7fWNhdGNoKGUpe30KICB0cnl7CiAgICB2YXIgX2lkPXNlc3Npb25TdG9yYWdlLmdldEl0ZW0oIl9fZ3VzdF9pbnN0X18iKXx8d2luZG93Ll9zZXNzaW9uSW5zdElkOwogICAgaWYoX2lkKXtsb2NhbFN0b3JhZ2Uuc2V0SXRlbShfaWQrIjoiK19rLF92KTt9CiAgfWNhdGNoKGUpe30KfSkoKTsKKGZ1bmN0aW9uKCl7CiAgdmFyIF9rPSJndXN0OnR1dG9yaWFsOmRvbmUiOwogIHZhciBfdj0iMSI7CiAgdHJ5e2xvY2FsU3RvcmFnZS5zZXRJdGVtKF9rLF92KTt9Y2F0Y2goZSl7fQogIHRyeXsKICAgIHZhciBfaWQ9c2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbSgiX19ndXN0X2luc3RfXyIpfHx3aW5kb3cuX3Nlc3Npb25JbnN0SWQ7CiAgICBpZihfaWQpe2xvY2FsU3RvcmFnZS5zZXRJdGVtKF9pZCsiOiIrX2ssX3YpO30KICB9Y2F0Y2goZSl7fQp9KSgpOwooZnVuY3Rpb24oKXsKICB2YXIgX2s9Imd1c3Q6dHV0b3JpYWw6djEiOwogIHZhciBfdj0iZG9uZSI7CiAgdHJ5e2xvY2FsU3RvcmFnZS5zZXRJdGVtKF9rLF92KTt9Y2F0Y2goZSl7fQogIHRyeXsKICAgIHZhciBfaWQ9c2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbSgiX19ndXN0X2luc3RfXyIpfHx3aW5kb3cuX3Nlc3Npb25JbnN0SWQ7CiAgICBpZihfaWQpe2xvY2FsU3RvcmFnZS5zZXRJdGVtKF9pZCsiOiIrX2ssX3YpO30KICB9Y2F0Y2goZSl7fQp9KSgpOwovLyBDU1MgaGlkZSBydWxlcwp2YXIgX3M9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic3R5bGUiKTsKX3MuaWQ9Imd1c3QtcGF0Y2hlci1jc3MiOwpfcy50ZXh0Q29udGVudD0iI3R1dG9yaWFsT3ZlcmxheSB7IGRpc3BsYXk6bm9uZSAhaW1wb3J0YW50OyB9XG4jcmVzdGFydFR1dG9yaWFsQnRuIHsgZGlzcGxheTpub25lICFpbXBvcnRhbnQ7IH1cbiN0YWJDb250ZXh0TWVudSB7IGRpc3BsYXk6bm9uZSAhaW1wb3J0YW50OyB9XG4udGFiLWRyYWctZ2hvc3QsLnRhYi1kcmFnLXNsb3QsLnRhYi1kcmFnZ2luZyB7IGRpc3BsYXk6bm9uZSAhaW1wb3J0YW50OyB9IjsKKGRvY3VtZW50LmhlYWR8fGRvY3VtZW50LmRvY3VtZW50RWxlbWVudCkuYXBwZW5kQ2hpbGQoX3MpOwovLyBKUyBvdmVycmlkZXMKZnVuY3Rpb24gX2dwKCl7CiAgKGZ1bmN0aW9uKCl7CiAgICB2YXIgX3NlbHM9WyIjcmVzdGFydFR1dG9yaWFsQnRuIl07CiAgICBmdW5jdGlvbiBfbWtCYWRnZSgpewogICAgICB2YXIgYj1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTsKICAgICAgYi5zdHlsZS5jc3NUZXh0PSJkaXNwbGF5OmlubGluZS1mbGV4O2FsaWduLWl0ZW1zOmNlbnRlcjtnYXA6NXB4O3BhZGRpbmc6M3B4IDlweDtiYWNrZ3JvdW5kOnJnYmEoMjU1LDE4MCw4MCwwLjEwKTtib3JkZXI6MXB4IHNvbGlkIHJnYmEoMjU1LDE4MCw4MCwwLjI4KTtib3JkZXItcmFkaXVzOjZweDtmb250LXNpemU6MTFweDtmb250LWZhbWlseTp2YXIoLS1tb25vLG1vbm9zcGFjZSk7Y29sb3I6cmdiYSgyNTUsMTgwLDgwLDAuODUpO3doaXRlLXNwYWNlOm5vd3JhcDtmbGV4LXNocmluazowO21hcmdpbi1sZWZ0OmF1dG87IjsKICAgICAgYi5pbm5lckhUTUw9JzxpIGNsYXNzPSJmYXMgZmEtbG9jayIgc3R5bGU9ImZvbnQtc2l6ZTo5cHg7Ij48L2k+IHJlbW92ZWQgYnkgcGF0Y2hlcic7CiAgICAgIHJldHVybiBiOwogICAgfQogICAgZnVuY3Rpb24gX2luamVjdCgpewogICAgICB2YXIgdXNlZFJvd3M9W107CiAgICAgIHZhciBmYWxsYmFja0VsPW51bGw7CiAgICAgIGZvcih2YXIgaT0wO2k8X3NlbHMubGVuZ3RoO2krKyl7CiAgICAgICAgdmFyIGVsPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoX3NlbHNbaV0pOwogICAgICAgIGlmKCFlbCkgY29udGludWU7CiAgICAgICAgdmFyIHJvdz1lbC5jbG9zZXN0KCIuc2V0dGluZ3Mtc3dpdGNoLXJvdywuc2V0dGluZ3MtdG9nZ2xlLXJvdyIpOwogICAgICAgIGlmKHJvdyl7CiAgICAgICAgICBpZih1c2VkUm93cy5pbmRleE9mKHJvdyk9PT0tMSl7CiAgICAgICAgICAgIHVzZWRSb3dzLnB1c2gocm93KTsKICAgICAgICAgICAgaWYoIXJvdy5fZ3BfYmFkZ2VkKXtyb3cuX2dwX2JhZGdlZD10cnVlO3Jvdy5hcHBlbmRDaGlsZChfbWtCYWRnZSgpKTt9CiAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIGlmKCFmYWxsYmFja0VsKXsKICAgICAgICAgIGZhbGxiYWNrRWw9ZWw7CiAgICAgICAgfQogICAgICB9CiAgICAgIGlmKHVzZWRSb3dzLmxlbmd0aD09PTAmJmZhbGxiYWNrRWwmJiFmYWxsYmFja0VsLl9ncF9iYWRnZWQpewogICAgICAgIGZhbGxiYWNrRWwuX2dwX2JhZGdlZD10cnVlOwogICAgICAgIGZhbGxiYWNrRWwucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoX21rQmFkZ2UoKSxmYWxsYmFja0VsLm5leHRTaWJsaW5nKTsKICAgICAgfQogICAgfQogICAgaWYoZG9jdW1lbnQucmVhZHlTdGF0ZT09PSJsb2FkaW5nIil7ZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiRE9NQ29udGVudExvYWRlZCIsX2luamVjdCk7fWVsc2V7X2luamVjdCgpO30KICB9KSgpOwogIHdpbmRvdy5zdGFydFR1dG9yaWFsPWZ1bmN0aW9uKCl7fTsKICB3aW5kb3cuZW5kVHV0b3JpYWw9ZnVuY3Rpb24oKXt9OwogIHdpbmRvdy5fX2d1c3RTdGFydFR1dG9yaWFsPWZ1bmN0aW9uKCl7fTsKICB0cnl7T2JqZWN0LmRlZmluZVByb3BlcnR5KHdpbmRvdywic3RhcnRUdXRvcmlhbCIse2NvbmZpZ3VyYWJsZTp0cnVlLHdyaXRhYmxlOnRydWUsdmFsdWU6ZnVuY3Rpb24oKXt9fSk7fWNhdGNoKGUpe30KICB0cnl7T2JqZWN0LmRlZmluZVByb3BlcnR5KHdpbmRvdywiX19ndXN0U3RhcnRUdXRvcmlhbCIse2NvbmZpZ3VyYWJsZTp0cnVlLHdyaXRhYmxlOnRydWUsdmFsdWU6ZnVuY3Rpb24oKXt9fSk7fWNhdGNoKGUpe30KICB3aW5kb3cuX29uTGliY3VybEluaXREb25lPShmdW5jdGlvbihvcmlnKXsKICAgIHJldHVybiBmdW5jdGlvbigpewogICAgICBpZih0eXBlb2Ygb3JpZz09PSJmdW5jdGlvbiIpIG9yaWcuYXBwbHkodGhpcyxhcmd1bWVudHMpOwogICAgICB3aW5kb3cuX19ndXN0U3RhcnRUdXRvcmlhbD1mdW5jdGlvbigpe307CiAgICAgIHdpbmRvdy5zdGFydFR1dG9yaWFsPWZ1bmN0aW9uKCl7fTsKICAgIH07CiAgfSkod2luZG93Ll9vbkxpYmN1cmxJbml0RG9uZSk7CiAgKGZ1bmN0aW9uKCl7CiAgICBkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCJwb2ludGVyZG93biIsIGZ1bmN0aW9uKGUpewogICAgICBpZihlLmJ1dHRvbiE9PTApIHJldHVybjsKICAgICAgdmFyIHRhYj1lLnRhcmdldC5jbG9zZXN0KCIudGFiW2RhdGEtdGFiLWlkXSIpOwogICAgICBpZighdGFiKSByZXR1cm47CiAgICAgIGlmKGUudGFyZ2V0LmNsb3Nlc3QoIi50YWItY2xvc2UiKSkgcmV0dXJuOwogICAgICAvLyBTdG9wIEdVU1QncyBkcmFnIGxpc3RlbmVyIGZyb20gZmlyaW5nOyBjbGljayBzdGlsbCB3b3JrcwogICAgICBlLnN0b3BJbW1lZGlhdGVQcm9wYWdhdGlvbigpOwogICAgICAvLyBSZS1maXJlIGEgcGxhaW4gY2xpY2sgc28gdGFiIHN3aXRjaGluZyBzdGlsbCB3b3JrcwogICAgICB0YWIuZGlzcGF0Y2hFdmVudChuZXcgTW91c2VFdmVudCgiY2xpY2siLHtidWJibGVzOnRydWUsY2FuY2VsYWJsZTp0cnVlfSkpOwogICAgfSwgdHJ1ZSk7CiAgfSkoKTsKICBbInNob3dUYWJDb250ZXh0IiwidGFiQ29udGV4dE1lbnUiLCJvcGVuVGFiTWVudSJdLmZvckVhY2goZnVuY3Rpb24oZm4pewogICAgaWYodHlwZW9mIHdpbmRvd1tmbl09PT0iZnVuY3Rpb24iKSB3aW5kb3dbZm5dPWZ1bmN0aW9uKCl7fTsKICB9KTsKfQppZihkb2N1bWVudC5yZWFkeVN0YXRlPT09ImxvYWRpbmciKXtkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCJET01Db250ZW50TG9hZGVkIixfZ3ApO31lbHNle19ncCgpO30KfSkoKTs=";
+  var c=decodeURIComponent(escape(atob(b)));
+  try{eval(c);}catch(e){console.error("[GUST Patcher] patch failed:",e);}
+})();
+</script>
 </head>
 
 <body>
@@ -9718,6 +9728,19 @@ parent.postMessage({ t: 'ready' }, '*');
             }
 
             // ── Detect file type from MIME + URL extension ─────────────────
+            // Hostnames that intentionally serve raw source text — never render as HTML.
+            // Covers: GitHub raw files & gists, GitLab raw, Bitbucket raw, Pastebin raw,
+            //         Hastebin, sourcehut plain, paste.mozilla.org, dpaste, etc.
+            const RAW_SOURCE_HOSTS = /^(raw\.githubusercontent\.com|gist\.githubusercontent\.com|gitlab\.com|raw\.gitlab\.com|bitbucket\.org|pastebin\.com|hastebin\.com|haste\.znc\.in|paste\.mozilla\.org|dpaste\.com|dpaste\.org|sourcehut\.org|git\.sr\.ht|paste\.ee|termbin\.com|ghostbin\.co|controlc\.com|privatebin\.net)$/i;
+
+            function isRawSourceUrl(url) {
+                try {
+                    const host = new URL(url).hostname.replace(/^www\./, '');
+                    return RAW_SOURCE_HOSTS.test(host);
+                } catch(e) {}
+                return false;
+            }
+
             function classifyResponse(mime, url, buf) {
                 const m = (mime || '').toLowerCase().split(';')[0].trim();
                 const ext = (url || '').split('?')[0].split('.').pop().toLowerCase();
@@ -9725,6 +9748,11 @@ parent.postMessage({ t: 'ready' }, '*');
                 if (m.startsWith('image/') || /^(png|jpe?g|gif|webp|svg|bmp|ico|avif|tiff?)$/.test(ext)) return 'image';
                 if (m.startsWith('video/') || /^(mp4|webm|ogv|mov|avi|mkv|m4v)$/.test(ext)) return 'video';
                 if (m.startsWith('audio/') || /^(mp3|ogg|flac|wav|aac|m4a|opus|weba)$/.test(ext)) return 'audio';
+
+                // Raw source hosts: always show as plain text, never render as HTML,
+                // regardless of file extension or content sniffing.
+                if (isRawSourceUrl(url)) return 'text';
+
                 // .html/.htm URLs always render as HTML regardless of reported content-type
                 if (/^htm(l)?$/.test(ext)) return 'html';
                 // text/plain may actually be HTML — sniff the first 1KB before treating as plain text
